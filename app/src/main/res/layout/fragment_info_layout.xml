@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/wifiIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WifiIP"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+
+    <TextView
+        android:id="@+id/mobileIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MobileIP"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/tvModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+
+</LinearLayout>
